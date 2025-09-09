@@ -1,0 +1,7 @@
+f=open("file2.txt","r")
+content=f.readlines()
+f.close()
+lines=len(content)
+f1=open("file2.txt","r")
+print("No. of lines in the file:",lines)
+print("file contents \r\n",f1.read(),sep="")
